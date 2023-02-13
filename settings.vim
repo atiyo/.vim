@@ -43,10 +43,3 @@ set background=dark
 "Help identify Julia files
 au VimEnter,BufRead,BufNewFile *.jl set filetype=julia
 filetype plugin indent on
-
-"vim-slime to use the native terminal. Disable default keybindings.
-let g:slime_target="vimterminal"
-let g:slime_no_mappings=1
-
-"Do not show diagnostics in insert mode
-let g:lsp_diagnostics_signs_insert_mode_enabled=0

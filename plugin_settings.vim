@@ -25,3 +25,10 @@ augroup lsp_install
     " call s:on_lsp_buffer_enabled only for languages that has the server registered.
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
+
+"vim-slime to use the native terminal. Disable default keybindings.
+let g:slime_target="vimterminal"
+let g:slime_no_mappings=1
+
+"Do not show diagnostics in insert mode
+let g:lsp_diagnostics_signs_insert_mode_enabled=0
