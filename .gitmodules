@@ -1,0 +1,18 @@
+[submodule "pack/third_party_plugins/start/vim-lsp"]
+	path = pack/third_party_plugins/start/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/third_party_plugins/start/gruvbox"]
+	path = pack/third_party_plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule "pack/third_party_plugins/start/vim-polyglot"]
+	path = pack/third_party_plugins/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/third_party_plugins/start/asyncomplete.vim"]
+	path = pack/third_party_plugins/start/asyncomplete.vim
+	url = https://github.com/prabirshrestha/asyncomplete.vim
+[submodule "pack/third_party_plugins/start/asyncomplete-lsp.vim"]
+	path = pack/third_party_plugins/start/asyncomplete-lsp.vim
+	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
+[submodule "pack/third_party_plugins/start/vim-slime"]
+	path = pack/third_party_plugins/start/vim-slime
+	url = https://github.com/jpalardy/vim-slime
