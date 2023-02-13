@@ -31,4 +31,6 @@ let g:slime_target="vimterminal"
 let g:slime_no_mappings=1
 
 "Do not show diagnostics in insert mode
-let g:lsp_diagnostics_signs_insert_mode_enabled=0
+let g:lsp_diagnostics_signs_enabled=0
+let g:lsp_diagnostics_virtual_text_enabled=0
+let g:lsp_diagnostics_echo_cursor=1
