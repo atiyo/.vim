@@ -16,3 +16,6 @@
 [submodule "pack/third_party_plugins/start/vim-slime"]
 	path = pack/third_party_plugins/start/vim-slime
 	url = https://github.com/jpalardy/vim-slime
+[submodule "pack/third_party_plugins/start/vim-sneak"]
+	path = pack/third_party_plugins/start/vim-sneak
+	url = https://github.com/justinmk/vim-sneak
