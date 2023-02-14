@@ -16,10 +16,10 @@ nnoremap <silent> i :noh<CR>i
 nnoremap <silent> c :noh<CR>c
 
 "Buffer navigation
-nnoremap <C-m> :bnext<CR>
-nnoremap <C-n> :bprev<CR>
-tnoremap <C-m> <C-\><C-n>:bnext<CR>
-tnoremap <C-n> <C-\><C-n>:bprev<CR>
+nnoremap <C-.> :bnext<CR>
+nnoremap <C-,> :bprev<CR>
+tnoremap <C-.> <C-\><C-n>:bnext<CR>
+tnoremap <C-,> <C-\><C-n>:bprev<CR>
 
 
 "Navigation between windows
