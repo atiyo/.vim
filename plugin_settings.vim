@@ -1,6 +1,5 @@
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
-    setlocal signcolumn=yes
     if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
     nmap <buffer> gd <plug>(lsp-definition)
     nmap <buffer> gs <plug>(lsp-document-symbol-search)
@@ -13,11 +12,6 @@ function! s:on_lsp_buffer_enabled() abort
     nmap <buffer> ]d <plug>(lsp-next-diagnostic)
     nmap <buffer> K <plug>(lsp-hover)
     nmap <buffer> <C-f> <plug>(lsp-document-format)
-
-    " let g:lsp_format_sync_timeout = 1000
-    " autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
-    
-    " refer to doc to add more commands
 endfunction
 
 augroup lsp_install
@@ -34,6 +28,7 @@ let g:slime_no_mappings=1
 let g:lsp_diagnostics_signs_enabled=0
 let g:lsp_diagnostics_virtual_text_enabled=0
 let g:lsp_diagnostics_echo_cursor=1
+let g:lsp_hover_ui='preview'
 
 "Sneaky
 let g:sneak#label = 1

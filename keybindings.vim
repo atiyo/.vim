@@ -18,6 +18,8 @@ nnoremap <silent> c :noh<CR>c
 "Buffer navigation
 nnoremap L :bnext<CR>
 nnoremap H :bprev<CR>
+tnoremap L <C-\><C-n>:bnext<CR>
+tnoremap H <C-\><C-n>:bprev<CR>
 
 
 "Navigation between windows
