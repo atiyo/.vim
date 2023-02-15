@@ -17,8 +17,8 @@ nnoremap <silent> c :noh<CR>c
 
 "Buffer navigation
 nnoremap <Leader>b :ls<CR>:b<Space>
-nnoremap <Leader>n :b #<CR>
-nnoremap <Leader>d :b#|bd#<CR>
+nnoremap <Leader>n :b#<CR>
+nnoremap <Leader>d :b#<CR>:bd#<CR>
 
 "Navigation between windows
 nnoremap <silent> <C-h> <C-w>h
@@ -36,6 +36,7 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
 
 "Escape exits insert mode in terminal
+nnoremap <Leader>t :terminal<CR><C-j><C-w>L
 tmap <Esc> <C-\><C-n>
 
 "REPL sending
