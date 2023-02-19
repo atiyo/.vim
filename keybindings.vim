@@ -42,6 +42,7 @@ tmap <Esc> <C-\><C-n>
 "REPL sending
 vmap <Space> <Plug>SlimeRegionSend
 nmap <Space> <Plug>SlimeLineSend
+nmap <C-@> <Plug>SlimeParagraphSend
 
 "Helper function to remove white space
 function! TrimWhitespace()
