@@ -30,14 +30,7 @@ let g:lsp_diagnostics_virtual_text_enabled=0
 let g:lsp_diagnostics_echo_cursor=1
 let g:lsp_hover_ui='preview'
 
-"Sneaky
-let g:sneak#label = 1
-map f <Plug>Sneak_f
-map F <Plug>Sneak_F
-map t <Plug>Sneak_t
-map T <Plug>Sneak_T
-
 "Ignore files from file search
   let g:ctrlp_custom_ignore = {
-    \ 'dir':  ' \.git\|__pycache__$',
+    \ 'dir':  ' \.git\|__pycache__\|venv$',
     \ }

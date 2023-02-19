@@ -23,6 +23,7 @@ nnoremap <Leader>d :b#<CR>:bd#<CR>
 "File navigation
 let g:ctrlp_map = '<Leader>f'
 nnoremap <Leader>r :CtrlPMRU<CR>
+nnoremap <Leader>/ :CtrlPLine<CR>
 
 "Navigation between windows
 nnoremap <silent> <C-h> <C-w>h
@@ -47,6 +48,13 @@ tmap <Esc> <C-\><C-n>
 vmap <Space> <Plug>SlimeRegionSend
 nmap <Space> <Plug>SlimeLineSend
 nmap <C-@> <Plug>SlimeParagraphSend
+
+"Sneaky
+let g:sneak#label = 1
+map f <Plug>Sneak_f
+map F <Plug>Sneak_F
+map t <Plug>Sneak_t
+map T <Plug>Sneak_T
 
 "Helper function to remove white space
 function! TrimWhitespace()
