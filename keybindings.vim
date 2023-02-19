@@ -16,9 +16,13 @@ nnoremap <silent> i :noh<CR>i
 nnoremap <silent> c :noh<CR>c
 
 "Buffer navigation
-nnoremap <Leader>b :ls<CR>:b<Space>
+nnoremap <Leader>b :CtrlPBuffer<CR>
 nnoremap <Leader>n :b#<CR>
 nnoremap <Leader>d :b#<CR>:bd#<CR>
+
+"File navigation
+let g:ctrlp_map = '<Leader>f'
+nnoremap <Leader>r :CtrlPMRU<CR>
 
 "Navigation between windows
 nnoremap <silent> <C-h> <C-w>h
