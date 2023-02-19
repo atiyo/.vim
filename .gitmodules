@@ -19,3 +19,6 @@
 [submodule "pack/third_party_plugins/start/vim-sneak"]
 	path = pack/third_party_plugins/start/vim-sneak
 	url = https://github.com/justinmk/vim-sneak
+[submodule "pack/third_party_plugins/start/ctrlp.vim"]
+	path = pack/third_party_plugins/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
