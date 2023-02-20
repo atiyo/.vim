@@ -31,6 +31,7 @@ let g:lsp_diagnostics_echo_cursor=1
 let g:lsp_hover_ui='preview'
 
 "Ignore files from file search
-  let g:ctrlp_custom_ignore = {
+  let g:ctrlp_custom_ignore={
     \ 'dir':  ' \.git\|__pycache__\|venv$',
     \ }
+let g:ctrlp_open_multiple_files='i'
