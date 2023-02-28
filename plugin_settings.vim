@@ -35,3 +35,4 @@ let g:lsp_hover_ui='preview'
     \ 'dir':  ' \.git\|__pycache__\|venv$',
     \ }
 let g:ctrlp_open_multiple_files='i'
+let g:ctrlp_use_caching=0
