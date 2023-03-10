@@ -19,3 +19,11 @@ if executable('julia')
         \ 'allowlist': ['julia'],
         \ })
 endif
+
+if executable('racket')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'racket_lsp',
+        \ 'cmd': {server_info->['racket', '-l', 'racket-langserver']},
+        \ 'allowlist': ['racket'],
+        \ })
+endif
