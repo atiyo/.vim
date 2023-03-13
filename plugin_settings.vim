@@ -11,6 +11,7 @@ function! s:on_lsp_buffer_enabled() abort
     nmap <buffer> [d <plug>(lsp-previous-diagnostic)
     nmap <buffer> ]d <plug>(lsp-next-diagnostic)
     nmap <buffer> K <plug>(lsp-hover)
+    nmap <buffer> <leader>k <plug>(lsp-peek-definition)
     nmap <buffer> <C-f> <plug>(lsp-document-format)
 endfunction
 
