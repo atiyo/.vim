@@ -27,3 +27,11 @@ if executable('racket')
         \ 'allowlist': ['racket'],
         \ })
 endif
+
+if executable('texlab')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'tex_lsp',
+        \ 'cmd': {server_info->['texlab']},
+        \ 'allowlist': ['plaintex', 'tex'],
+        \ })
+endif
