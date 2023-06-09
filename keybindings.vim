@@ -56,6 +56,9 @@ map F <Plug>Sneak_F
 map t <Plug>Sneak_t
 map T <Plug>Sneak_T
 
+nnoremap < :diffget LO<CR>
+nnoremap > :diffget RE<CR>
+
 "Helper function to remove white space
 function! TrimWhitespace()
     let l:save = winsaveview()
