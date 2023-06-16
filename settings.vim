@@ -35,6 +35,7 @@ set splitright
 set colorcolumn=80
 set textwidth=80
 set foldmethod=indent
+autocmd FileType markdown,plaintex,tex setlocal colorcolumn=120 textwidth=120
 
 "Colors
 colorscheme gruvbox
