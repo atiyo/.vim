@@ -38,3 +38,4 @@ let g:lsp_hover_ui='preview'
     \ }
 let g:ctrlp_open_multiple_files='i'
 let g:ctrlp_use_caching=0
+let g:ctrlp_cmd='CtrlP :pwd'
