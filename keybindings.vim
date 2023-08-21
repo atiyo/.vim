@@ -56,8 +56,8 @@ map F <Plug>Sneak_F
 map t <Plug>Sneak_t
 map T <Plug>Sneak_T
 
-nnoremap < :diffget LO<CR>
-nnoremap > :diffget RE<CR>
+nnoremap <C-p> :diffget LO<CR>
+nnoremap <C-o> :diffget RE<CR>
 
 "Helper function to remove white space
 function! TrimWhitespace()
