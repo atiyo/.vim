@@ -33,6 +33,6 @@ if executable('texlab')
         \ 'name': 'tex_lsp',
         \ 'cmd': {server_info->['texlab']},
         \ 'allowlist': ['plaintex', 'tex'],
-        \ 'workspace_config': {'texlab': {'latexindent': {'local': '/Users/atiyo/.latexformat.yaml', 'modifyLineBreaks': v:true}}},
+        \ 'workspace_config': {'texlab': {'latexindent': {'local': '/Users/atiyo/.vim/latexformat.yaml', 'modifyLineBreaks': v:true}}},
         \ })
 endif
