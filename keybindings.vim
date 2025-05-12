@@ -56,6 +56,9 @@ map F <Plug>Sneak_F
 map t <Plug>Sneak_t
 map T <Plug>Sneak_T
 
+"Yank selection to file for SSH copypasta
+vmap ,c :w ~/atiyoclipboard.txt<CR>
+
 nnoremap <C-p> :diffget LO<CR>
 nnoremap <C-o> :diffget RE<CR>
 
